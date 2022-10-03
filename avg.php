@@ -5,9 +5,9 @@ function avg($str)
 	echo array_sum($nums)/count($nums);
 }
 
-function avg_wazona($std)
+function avg_wazona($stx)
 {
-    $nums = explode(', ', $std);
+    $nums = explode(', ', $stx);
 	echo array_sum($nums)/count($nums);
 }
 ?>
